@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#fizbuzz_main{
+    border: 2px solid #fff;
+    width: 60vw;
+    height: 90vh;
+}
+
+
+#input_range{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    padding-top: 15%;
+}
+
+#input_range > #fizbuzz_range{
+    width: 40%;
+    height: 25%;
+    outline: none;
+    text-align: center;
+}
+
+#fizbuzz_btn{
+    height: 25%;
+    width: 20%;
+    border: none;
+    background-color: #4169e1;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#fizbuzz_btn:active{
+    transform: scale(0.98);
+    border-radius: 12px;
+}
+
+#fizbuzz_print{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#fizbuzz_print h1{
+    color: #fff;
+}
+.series{
+    font-size: 1.2rem;
+    margin: 2px;
+    color: #4169e1;
+}
+
+.series::after{
+    content: ",";
+}
